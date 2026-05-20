@@ -37,5 +37,16 @@ Run the simulator on the binary file.
 ./sim -o machine/machine.cfg -b programs/simple.bin > programs/simple.out
 ```
 
+## Benchmarks Included
+- `simple.s` - Basic arithmetic operations
+- `vect.s` - Vector operations
+- `newton.s` - Newton's method root approximation
+- `cos.s` - Cosine estimation via Taylor series
+
+## Core components:
+- `tomasulo.c` - Pipeline stage implementations (fetch, dispatch, execute, broadcast)
+- `fu.c` - Functional unit management and advancement logic
+- `main.c` - Simulator loop and initialization
+- `asm.c` - RISC-V assembler for test programs
 
 
