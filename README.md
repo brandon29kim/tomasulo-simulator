@@ -23,10 +23,19 @@ Implements a subset of RISC-V ISA including:
 - Control flow (beqz, bnez, j, jal, jr, jalr)
 
 ## Usage
+Make the project and the assembler. 
 ```zsh
 make
+make asm
 ```
+Assemble a program.
 ```zsh
-./sim -b  -o machine.cfg
+./asm programs/simple.s programs/simple.bin
 ```
+Run the simulator on the binary file. 
+``` zsh
+./sim -o machine/machine.cfg -b programs/simple.bin > programs/simple.out
+```
+
+
 
