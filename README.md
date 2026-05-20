@@ -23,7 +23,7 @@ Implements a subset of RISC-V ISA including:
 - Control flow (beqz, bnez, j, jal, jr, jalr)
 
 ## Usage
-```bash
+```zsh
 ./sim -b  -o machine.cfg
 ```
 
