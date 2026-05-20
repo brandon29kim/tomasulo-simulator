@@ -43,7 +43,7 @@ Run the simulator on the binary file.
 - `newton.s` - Newton's method root approximation
 - `cos.s` - Cosine estimation via Taylor series
 
-## Core components:
+## Core Components:
 - `tomasulo.c` - Pipeline stage implementations (fetch, dispatch, execute, broadcast)
 - `fu.c` - Functional unit management and advancement logic
 - `main.c` - Simulator loop and initialization
