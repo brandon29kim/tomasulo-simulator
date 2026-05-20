@@ -24,6 +24,9 @@ Implements a subset of RISC-V ISA including:
 
 ## Usage
 ```zsh
+make
+```
+```zsh
 ./sim -b  -o machine.cfg
 ```
 
